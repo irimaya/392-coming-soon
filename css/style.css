@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
+
+/* Main Styling */
+html,
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.p-6 {
+	padding: 80px;
+}
+
+.pb-6 {
+	padding-bottom: 90px;
+}
+
+.pt-6 {
+	padding-top: 100px;
+}
+
+.col-green {
+	background: #3b4338 !important;
+}
+
+.col-red {
+	background: #a3302a !important;
+}
+
+.col-red img {
+	height: 90%;
+	display: block;
+	margin: 0 auto;
+}
+
+.text-light {
+	color: #3b4338;
+}
+
+.p-cursive {
+	font-family: 'MonteCarlo', cursive;
+	letter-spacing: 2px;
+}
+
+.social a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+	.showcase {
+		flex-direction: column;
+		height: 100%;
+	}
+
+	.col-red img {
+		height: 100%;
+		width: 100%;
+	}
+}
