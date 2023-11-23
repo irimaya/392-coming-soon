@@ -7,44 +7,36 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 
-.p-6 {
-	padding: 80px;
+/* Bootstap */
+.fst-italic {
+	font-family: 'MonteCarlo', cursive;
 }
 
-.pb-6 {
-	padding-bottom: 90px;
+/* Utility Classes */
+.p-6 {
+	padding: 80px;
 }
 
 .pt-6 {
 	padding-top: 100px;
 }
 
+.pb-6 {
+	padding-top: 90px;
+}
+
 .col-green {
-	background: #3b4338 !important;
+	background: #3b4338;
 }
 
 .col-red {
-	background: #a3302a !important;
+	background: #a3302a;
 }
 
 .col-red img {
 	height: 90%;
 	display: block;
 	margin: 0 auto;
-}
-
-.text-light {
-	color: #3b4338;
-}
-
-.p-cursive {
-	font-family: 'MonteCarlo', cursive;
-	letter-spacing: 2px;
-}
-
-.social a {
-	color: #fff;
-	text-decoration: none;
 }
 
 /* Mobile */
